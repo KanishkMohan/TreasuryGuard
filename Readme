@@ -1,0 +1,72 @@
+# 🏦 TreasuryGuard Pro — Enterprise Liquidity Intelligence Platform
+
+**TreasuryGuard Pro** is an advanced AI-powered **Liquidity Forecasting, Risk Intelligence, and Treasury Management** system designed for **Banks, NBFCs, and Corporate Treasuries**.  
+It leverages **Machine Learning, Deep Learning, and Financial Optimization** techniques to deliver actionable insights for **cash flow forecasting, stress testing, and funding optimization** — in line with **RBI LCR/NSFR compliance** standards.
+
+---
+
+## 🚀 Key Features
+
+### 🔍 **Enterprise Data Intelligence**
+- Generates realistic multi-branch enterprise transaction data (synthetic for demo).
+- Interactive dashboards for inflows, outflows, and entity-level performance.
+- Advanced analytics on hourly, daily, and monthly liquidity patterns.
+
+### 🔮 **AI-Powered Cash Forecasting**
+- Hybrid ML pipeline using:
+  - **XGBoost**
+  - **Random Forest**
+  - **LSTM Neural Networks**
+- Automatically trains, tests, and ensembles models for the best predictive performance.
+- Computes advanced business metrics: R², MAPE, Directional Accuracy, Volatility Ratio.
+
+### ⚠️ **Stress Testing & Scenario Analysis**
+- Simulates RBI-style liquidity shocks and interest rate stress conditions.
+- Monte Carlo simulations for multi-path forecasting.
+- Computes Value at Risk (VaR) and volatility-adjusted risk ratios.
+
+### 💡 **Funding Optimization**
+- Linear programming–based optimization for lowest-cost borrowing mix.
+- Integrates Repo, CP, and NCD instruments with rate and cap constraints.
+- Generates strategic borrowing recommendations.
+
+### 🧠 **Explainable AI**
+- SHAP-based interpretability (if available) for model transparency.
+- Feature importance visualization across ML models.
+
+### 📊 **Executive Reports**
+- One-click **auto-generated HTML reports** summarizing:
+  - Liquidity health
+  - Forecast accuracy
+  - Risk classification
+  - Strategic recommendations  
+- Professionally styled, exportable for management review.
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Tools / Libraries |
+|-------|--------------------|
+| Frontend UI | Streamlit |
+| Data Processing | Pandas, NumPy |
+| Visualization | Plotly |
+| Machine Learning | scikit-learn, XGBoost |
+| Deep Learning | TensorFlow (Keras LSTM) |
+| Statistical Modeling | Statsmodels, Prophet |
+| Optimization | PuLP |
+| Explainable AI | SHAP |
+| Math / Simulation | SciPy, Monte Carlo methods |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🪜 Prerequisites
+- Python 3.9 or above  
+- pip or conda installed  
+- VS Code or any IDE
+
+### 📦 Step 1: Install dependencies
+```bash
+pip install -r requirements.txt
