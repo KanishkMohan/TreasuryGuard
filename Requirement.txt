@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotl
+scikit-learn
+xgboost
+statsmodels
+pulp
+scipy
+tensorflow
+prophet
+shap
